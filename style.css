@@ -1,0 +1,143 @@
+.Celsius-pic img, .Fahrenheit-pic img { 
+  border-radius: 50%;
+  width: 180px; 
+  height: 180px; 
+  
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+ .units {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  padding-bottom: 25px;
+  
+ }
+
+.com-pic {
+  padding-left: 30px;
+  width: 1350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: larger
+  
+}
+
+.command {
+  color: #181818;
+}
+
+
+.conversion-factor {
+  background-color: rgb(247, 247, 247);
+  border-radius: 8px;
+  border: 1px solid #acadae;
+  width: 485px;
+  height: 250px;
+}
+
+.c-f1 {
+  font-weight: lighter;
+  font-size: large;
+  margin-bottom: 0;
+  word-wrap: break-word;
+  color: #264363;
+  width: fit-content;
+  padding-left: 30px;;
+}
+
+.c-f2 {
+  font-size: x-large;
+  margin-top: 16px;
+  color: #262c32;
+  width: fit-content;
+  padding-left: 30px;;
+}
+
+
+.h1 {
+  font-size: 55px;
+  text-transform: uppercase;
+  font-family: 'Gambetta', serif;
+  color: rgb(46, 46, 44);
+  padding-bottom: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.c-fAndCom-pic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: larger
+}
+
+.h3 {
+  font-size: 35px;
+  font-family: 'Gambetta', serif;
+  color: rgb(46, 46, 44);
+}
+
+.textbox {
+  width: 570px;
+  height: 30px;
+  appearance: none;
+  border: none;
+  outline: none;
+  border-bottom: .2em solid #E91E63;
+  background: rgba(233, 30, 99, 0.2); 
+  border-radius: .2em .2em 0 0;
+  padding: .4em;
+  color: #E91E63;
+}
+
+.convertButton {
+  font-size: large;
+  width: 200px;
+  height: 60px;
+  appearance: none;
+	border: .2em solid #E91E63;
+	background: hsl(0 0 0/0);
+	padding: .85em 1.5em;
+	color: #E91E63;
+	border-radius: 2em;
+	transition: 0.5s;
+	&:hover, &:focus, &:active {
+		background: #E91E63;
+		color: #fff;
+	}
+	}
+
+  .output {
+    padding-left: 50px;
+  }
+
+  .radio {
+    margin: 0;
+    font: inherit;
+    width: 1.15em;
+    height: 1.15em;
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6e4f3;
+    width: 100%;
+    height: 400px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+
+
